@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PDFZoomKit"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of PDFZoomKit."
+  spec.summary      = "PDF page zoom tool"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  PDFZoomKit is a Swift framework a simple zoom tool that supports professional image enlargement
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/PDFZoomKit"
+  spec.homepage     = "https://github.com/anhvu1993/PDFZoomKit"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -64,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "12.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -79,8 +80,9 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/PDFZoomKit.git", :tag => "#{spec.version}" }
-
+  spec.source       = { :git => "https://github.com/anhvu1993/PDFZoomKit.git", :tag => "#{spec.version}" }
+  spec.frameworks   = "Foundation", "UIKit", "Photos", "AVFoundation"
+  spec.swift_version = '4.2'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -90,8 +92,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "PDFZoomKit", "PDFZoomKit/**/*.{h,swift,modulemap}"
+  spec.exclude_files = "PDFZoomKit/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 

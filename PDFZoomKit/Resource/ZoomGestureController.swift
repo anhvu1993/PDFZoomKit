@@ -24,7 +24,7 @@ final class ZoomGestureController {
         guard pan.state != .ended else {
             self.previousPanPosition = nil
             self.closestCorner = nil
-            quadView.resetHighlightedCornerViews()
+//            quadView.resetHighlightedCornerViews()
             return
         }
         

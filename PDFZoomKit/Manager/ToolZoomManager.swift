@@ -97,8 +97,8 @@ public class ToolZoomManager {
         
         quadView.drawQuadrilateral(quad: transformedQuad, animated: false)
         
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
-//            self.zoomGestureController.zoomLocation(location: transformedQuad.topLeft)
-//        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.35) {
+            self.zoomGestureController.zoomLocation(location: transformedQuad.topLeft)
+        }
     }
 }
