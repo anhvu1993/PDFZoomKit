@@ -78,6 +78,8 @@ final class ZoomGestureController {
         }
         
         quadView.highlightCornerAtPosition(position: closestCorner, with: zoomedImage)
+        self.previousPanPosition = nil
+        self.closestCorner = nil
     }
     
     
