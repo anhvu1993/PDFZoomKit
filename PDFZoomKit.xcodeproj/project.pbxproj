@@ -24,6 +24,7 @@
 		7647DFDB282CEE9D00833B3C /* QuadrilateralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7647DFCD282CEE9D00833B3C /* QuadrilateralView.swift */; };
 		7647DFDC282CEE9D00833B3C /* Quadrilateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7647DFCE282CEE9D00833B3C /* Quadrilateral.swift */; };
 		7647DFDD282CEE9D00833B3C /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7647DFCF282CEE9D00833B3C /* CGRect+Extension.swift */; };
+		7667C7802835E47000D47F77 /* ScreenShot.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7667C77F2835E47000D47F77 /* ScreenShot.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		7647DFCD282CEE9D00833B3C /* QuadrilateralView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadrilateralView.swift; sourceTree = "<group>"; };
 		7647DFCE282CEE9D00833B3C /* Quadrilateral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quadrilateral.swift; sourceTree = "<group>"; };
 		7647DFCF282CEE9D00833B3C /* CGRect+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
+		7667C77F2835E47000D47F77 /* ScreenShot.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScreenShot.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		7647DFC3282CEE9C00833B3C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				7667C77F2835E47000D47F77 /* ScreenShot.jpeg */,
 				7647DFC4282CEE9C00833B3C /* UIColor+Extension.swift */,
 				7647DFC5282CEE9C00833B3C /* EditScanCornerView.swift */,
 				7647DFC6282CEE9C00833B3C /* UIImage+ZLImageEditor.swift */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7667C7802835E47000D47F77 /* ScreenShot.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
