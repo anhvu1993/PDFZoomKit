@@ -14,7 +14,7 @@ PDFZoomKit is a Swift framework a simple zoom tool that supports professional im
 
 To integrate PDFZoomKit into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
-pod 'PDFZoomKit', :git => "https://github.com/anhvu1993/PDFZoomKit.git", :tag => '1.0.1'
+pod 'PDFZoomKit', :git => "https://github.com/anhvu1993/PDFZoomKit.git", :tag => '0.0.3'
 
 Then, run the following command:
 
