@@ -1,4 +1,4 @@
-<img src="https://github.com/anhvu1993/PDFZoomKit/blob/main/PDFZoomKit/Resource/ScreenShot.jpeg" alt="" />
+<img src="https://github.com/anhvu1993/PDFZoomKit/blob/main/PDFZoomKit/ScreenShot.jpeg" alt="" />
 # PDFZoomKit
 PDFZoomKit is a Swift framework a simple zoom tool that supports professional image enlargement
 
