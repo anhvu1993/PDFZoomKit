@@ -2,8 +2,7 @@
 //  EditScanCornerView.swift
 //  PDFZoomKit
 //
-//  Created by Boris Emorine on 3/5/18.
-//  Copyright © 2018 WeTransfer. All rights reserved.
+//  Created by ANH VU on 12/05/2022.
 //
 
 import UIKit

@@ -1,3 +1,9 @@
+//
+//  ZoomGestureManager.swift
+//  PDFZoomKit
+//
+//  Created by ANH VU on 12/05/2022.
+//
 import Foundation
 import AVFoundation
 import UIKit

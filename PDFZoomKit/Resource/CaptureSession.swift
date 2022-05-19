@@ -2,7 +2,7 @@
 //  CaptureSession.swift
 //  PDFZoomKit
 //
-//  Created by Trung on 11/08/2021.
+//  Created by ANH VU on 12/05/2022.
 //
 
 import CoreMotion

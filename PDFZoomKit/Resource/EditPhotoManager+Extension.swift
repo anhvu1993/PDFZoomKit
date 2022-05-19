@@ -2,7 +2,7 @@
 //  EditPhotoManager+Extension.swift
 //  PDFZoomKit
 //
-//  Created by Trung on 12/08/2021.
+//  Created by ANH VU on 12/05/2022.
 //
 
 import Foundation

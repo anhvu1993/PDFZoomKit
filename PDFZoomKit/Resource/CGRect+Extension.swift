@@ -2,7 +2,7 @@
 //  CGRect+Extension.swift
 //  PDFZoomKit
 //
-//  Created by Trung on 14/08/2021.
+//  Created by ANH VU on 12/05/2022.
 //
 
 import UIKit
