@@ -42,7 +42,6 @@ public class ToolZoomManager {
         touchDown.isEnabled = false
         touchDown.minimumPressDuration = 0
         quadView.addGestureRecognizer(touchDown)
-        //        self.view.clipsToBounds = true
     }
     
     // MARK: - public Function

@@ -102,6 +102,7 @@
 				7647DFC1282CEE9C00833B3C /* Manager */,
 				7647DFC3282CEE9C00833B3C /* Resource */,
 				7647DFAA282CEE8200833B3C /* PDFZoomKit.h */,
+				7667C77F2835E47000D47F77 /* ScreenShot.jpeg */,
 				7647DFAB282CEE8200833B3C /* PDFZoomKit.docc */,
 			);
 			path = PDFZoomKit;
@@ -126,7 +127,6 @@
 		7647DFC3282CEE9C00833B3C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				7667C77F2835E47000D47F77 /* ScreenShot.jpeg */,
 				7647DFC4282CEE9C00833B3C /* UIColor+Extension.swift */,
 				7647DFC5282CEE9C00833B3C /* EditScanCornerView.swift */,
 				7647DFC6282CEE9C00833B3C /* UIImage+ZLImageEditor.swift */,
